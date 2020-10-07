@@ -1,0 +1,32 @@
+.logo{
+  border: solid black;
+  background-color: red;
+  width: 300px;
+  height: 20vh;
+  margin: 4px 3%;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 1024px){
+  .logo{
+    border: dotted black;
+    background-color: green;
+    width: 20%;
+    height: 100px;
+    margin: 10px 6%;
+    padding: 9px;
+  }
+
+  @media screen and (max-width: 425px){
+    .logo{
+      border: solid darkred;
+      background-color: green;
+      width: 20%;
+      height: 100px;
+      margin: 0;
+      padding-right: 9px;
+      padding-left: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }

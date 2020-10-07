@@ -1,0 +1,59 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  background-color: #EFF5FB;
+  width: 1060px;
+  height: 100%;
+}
+
+img{
+width: 516px;
+height: 90%;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.título{
+  display: inline-block;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 25px;
+  padding: 1px;
+}
+
+.subtítulo{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #999;
+  margin-bottom: 25px;
+  padding: 1px;
+}
+
+.párrafo{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #777;
+  margin-bottom: 20px;
+  padding: 1px;
+}
+
+.image{
+  width: 600px;
+  padding-left: 25px;
+}
+
+.footer{
+  background-color: #EFF5FB;
+  font-size: 13px;
+  width: 1060px;
+  padding-top: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #777;
+}

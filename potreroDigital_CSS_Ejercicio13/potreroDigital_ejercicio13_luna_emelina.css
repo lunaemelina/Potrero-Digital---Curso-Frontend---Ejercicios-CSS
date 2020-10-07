@@ -1,0 +1,20 @@
+p{
+  font-size: 16px;
+}
+
+h2{
+  font-family: helvetica;
+}
+
+.Títulos1{
+  color: #B40404;
+  background-color: #08088A;
+}
+
+.Títulos2{
+  color: #088A29;
+}
+
+#Subtítulo{
+  font-style: italic;
+}
